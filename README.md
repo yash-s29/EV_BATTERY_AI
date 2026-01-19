@@ -6,7 +6,7 @@ An intelligent, Machine Learning-driven platform designed for fixed-route EV bus
 
 Model View & Prediction Engine: View on Streamlit: http://ev-bus-fleet-battery-ai.streamlit.app/
 
-# 📸 Dashboard Gallery
+# Dashboard Gallery
 
 # Fleet Command Center
 
@@ -20,19 +20,19 @@ AI-simulated battery usage based on environmental factors (like temperature) and
 
 Live tracking of the fleet with telemetry updates and status alerts (Critical/Good) mapped across the city.
 
-# 🛠️ Technical Stack
+# Technical Stack
 
-**- Frontend:** Crafted a responsive UI using HTML5, CSS3, and JavaScript for high-fidelity, real-time data visualization and interactive mapping.
+**Frontend:** Crafted a responsive UI using HTML5, CSS3, and JavaScript for high-fidelity, real-time data visualization and interactive mapping.
 
-**- Backend:** Powered by Python and Flask, providing a robust RESTful API for seamless data flow between the ML models and the UI.
+**Backend:** Powered by Python and Flask, providing a robust RESTful API for seamless data flow between the ML models and the UI.
 
-**- Machine Learning:** Implemented and compared Linear Regression and Random Forest Regressor models to achieve high-accuracy battery state and discharge predictions.
+**Machine Learning:** Implemented and compared Linear Regression and Random Forest Regressor models to achieve high-accuracy battery state and discharge predictions.
 
-**- Database:** Utilized a MongoDB Cluster (Atlas) for scalable, high-performance storage of historical telemetry and fleet logs.
+**Database:** Utilized a MongoDB Cluster (Atlas) for scalable, high-performance storage of historical telemetry and fleet logs.
 
-**- Deployment:** Model preview and interactive testing hosted via Streamlit.
+**Deployment:** Model preview and interactive testing hosted via Streamlit.
 
-# ⚙️ System Workflow
+# System Workflow
 
 The project follows a modular 4-step pipeline to ensure data integrity and prediction accuracy:
 
@@ -44,7 +44,7 @@ The project follows a modular 4-step pipeline to ensure data integrity and predi
 
 - Frontend Implementation: Displays interactive charts, route risks, and fleet alerts.
 
-# ✨ Key Features
+# Key Features
 
 - Predictive Maintenance: Monitor State of Health (SOH) and maintenance status to move from reactive to proactive fleet care.
 
@@ -54,7 +54,7 @@ The project follows a modular 4-step pipeline to ensure data integrity and predi
 
 - Fleet Logs: Filterable records of bus status, maintenance due dates, and detected issues.
 
-📦 Installation & Setup
+# Installation & Setup
 
 Clone the Repository:
 
@@ -72,6 +72,6 @@ Run the Flask App:
 
 python app.py
 
-# 📜 Acknowledgments
+# Acknowledgments
 Developed during the Advanced Course Training & Internship Program by Edunet Foundation in collaboration with Shell Market Pvt Ltd.
 
